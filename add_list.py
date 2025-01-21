@@ -8,14 +8,14 @@ created_date =  input('дата начала проекта в формате д
 issue_date =  input('дата окончания проекта в формате день-месяц-год: ')
 '''issue_date дата окончания проекта'13-02-2025' ввод через input
 '''
-info_1 = input('основные темы: ') # info_1 первый заголовок проекта
-info_2 = input('персонажи: ') # info_2 второй заголовок проекта
-info_3 = input('рекомендации для чтения: ') # info_3 третий заголовок проекта
-title_string = [info_1, info_2, info_3] # title_string "заметка" проекта
+title_1 = input(f'заголовок  {1}: ') # title_1 первый заголовок проекта
+title_2 = input(f'заголовок  {2}: ') # title_2 второй заголовок проекта
+title_3 = input(f'заголовок  {3}: ') # title_3 третий заголовок проекта
+title_s = [title_1, title_2, title_3] # title_s объединеие строк в список
 print(username) # print функция вывода на экран
 print(title)
 print(content)
 print(status)
 print(created_date)
 print(issue_date)
-print(title_string)
+print(title_s)
