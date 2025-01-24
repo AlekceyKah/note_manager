@@ -10,10 +10,10 @@ title_2 = input(f"заголовок: {2} ") # info_2 второй заголо�
 title_3 = input(f"заголовок: {3} ") # info_3 третий заголовок проекта
 title_s = [title_1, title_2, title_3]  # title_s объединение строк в список
 project.append(title_s) # project.append(title_string) # добавление вложенных элементов списка title_s с помощью метода .append
-print(project[0]) # индексация и вывод списка в консоль
-print(project[1])
-print(project[2])
-print(project[3])
-print(project[4])
-print(project[5])
-print(project[6])
+print(project[0], project[1], project[2], project[3], project[4], project[5], project[6], sep="\n") # индексация и вывод списка в консоль
+# print(project[1])
+# print(project[2])
+# print(project[3])
+# print(project[4])
+# print(project[5])
+# print(project[6])
